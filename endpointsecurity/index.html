@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/app/dist/css/style.css">
     <title>Home</title>
 </head>
 <body>
-    <div id="navBar">
-        <div>
-            <h2>Endpoint</h2>
-        </div>
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>Products</li>
-                <li>Partners</li>
-            </ul>
-        </div>
-        <div>
-            <h2><span>Contact number</span></h2>
-        </div>
-    </div>
-    <div id="productBar">
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-        </ul>
-    </div>
-    
+    <header class="header">
+        <nav class="flex flex-jc-sb flex-ai-c">
+            <a href="/" class="header__logo">
+                EndpointSecurity
+            </a>
+            
+            <a href="#" class="header__menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="header__links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Partner</a>
+                <button type="button">Free Trial</button>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
