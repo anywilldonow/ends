@@ -1,0 +1,29 @@
+.header{
+    nav{
+        padding: 2rem;
+    }
+
+    &__logo{
+
+        font-size: 1.5em;
+    }
+
+    &__menu{
+        //mobile menu
+        >span{
+            display: block;
+            width: 1.5rem;
+            height: 0.2rem;
+            background-color: darkblue;
+
+            &:not(:last-child){
+                margin-bottom: 3px;
+            }
+        }
+
+    } 
+}
+
+.product-bar{
+    margin-right: 10em;
+}

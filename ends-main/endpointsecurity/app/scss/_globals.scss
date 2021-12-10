@@ -1,0 +1,70 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+a, a:visited, a:hover{
+    text-decoration: none;
+}
+//flexbox
+.flex{
+    display: flex;
+    margin: 0 15px;
+
+    &-jc-sb{
+        justify-content: space-between;
+    }
+    
+    &-jc-c{
+        justify-content: center;
+    }
+
+    &-jc-e{
+        justify-content: space-evenly;
+    }
+
+    &-ai-c{
+        align-items: center;
+    }
+}
+
+
+//Buttons
+button,.button{
+    padding: 1rem 1.875rem;
+    background: linear-gradient(to right, black,black);
+    border: 0;
+    border-radius: 1.75rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+}
+
+//visibility
+/*
+.hide-for-mobile{
+    @include breakpoint-down(medium){
+        display:none;
+    }
+
+}
+
+.hide-for-desktop{
+    @include breakpoint-up(medium){
+        display:none;
+    }
+    
+}
+*/
